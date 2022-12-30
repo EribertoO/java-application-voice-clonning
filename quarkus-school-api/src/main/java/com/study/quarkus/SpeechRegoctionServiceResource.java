@@ -33,24 +33,18 @@ public class SpeechRegoctionServiceResource {
         return Response.ok(response).build();
     }
 
+    /*
     @POST
-    public Response receiveBase64(final SpeechRegoctionRequest SpeechRegoction) {
+    public Response getTranscription(final SpeechRegoctionRequest SpeechRegoction) {
 
-        System.out.println("Request        " + SpeechRegoction);
-
-        // Make the database persistence
-        // // final var response = service.save(SpeechRegoction);
-
-        // Get/calculated the transcription based on the base64 string
-
-        // Return the response the 
+        final var response = service.save(SpeechRegoction);
 
         return Response
                 .status(Response.Status.CREATED)
-                .entity("Saída")
+                .entity(response)
                 .build();
     }
-    
+    */
 
     /*
     @PUT

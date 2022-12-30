@@ -16,6 +16,5 @@ import lombok.NoArgsConstructor;
 public class SpeechRegoctionRequest {
 
     private String personID;
-    private String base64WAVstring;
 
 }
